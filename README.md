@@ -1,2 +1,3 @@
 # XBSendEmialDemo
-发送邮箱demo
+发送邮箱demo<br>
+主要是CocoaLumberjack和SKPSMTPMessage和使用方法
