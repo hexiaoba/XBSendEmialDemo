@@ -1,0 +1,46 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - CocoaLumberjack (3.2.0):
+    - CocoaLumberjack/Default (= 3.2.0)
+    - CocoaLumberjack/Extensions (= 3.2.0)
+  - CocoaLumberjack/Default (3.2.0)
+  - CocoaLumberjack/Extensions (3.2.0):
+    - CocoaLumberjack/Default
+  - skpsmtpmessage (0.0.1)
+  - WaterFall (1.0.0)
+  - XTHttpRequestUtils (3):
+    - AFNetworking
+  - XTLocationUtils (1)
+
+DEPENDENCIES:
+  - CocoaLumberjack
+  - skpsmtpmessage
+  - WaterFall
+  - XTHttpRequestUtils
+  - XTLocationUtils
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  CocoaLumberjack: 9b4aed7073d242f29cc2f62068d995faf67f703a
+  skpsmtpmessage: f6e913380c784dd8d4a9f83c8790a302445a5e05
+  WaterFall: 880177521dfd079fb0ec4f78ce02e9b5ddfc7a23
+  XTHttpRequestUtils: de20fafd23c84035b4827b34fa447de09058d746
+  XTLocationUtils: 72a1371bd090c11c2677af62aa618808befb5b7c
+
+PODFILE CHECKSUM: c3121e52c3cb5cbbac4ab3b7aa86f127bfa44192
+
+COCOAPODS: 1.2.1

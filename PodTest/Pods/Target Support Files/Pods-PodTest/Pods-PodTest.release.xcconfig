@@ -1,0 +1,9 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/CocoaLumberjack" "${PODS_ROOT}/Headers/Public/WaterFall" "${PODS_ROOT}/Headers/Public/XTHttpRequestUtils" "${PODS_ROOT}/Headers/Public/XTLocationUtils" "${PODS_ROOT}/Headers/Public/skpsmtpmessage"
+LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/AFNetworking" "$PODS_CONFIGURATION_BUILD_DIR/CocoaLumberjack" "$PODS_CONFIGURATION_BUILD_DIR/WaterFall" "$PODS_CONFIGURATION_BUILD_DIR/XTHttpRequestUtils" "$PODS_CONFIGURATION_BUILD_DIR/XTLocationUtils" "$PODS_CONFIGURATION_BUILD_DIR/skpsmtpmessage"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AFNetworking" -isystem "${PODS_ROOT}/Headers/Public/CocoaLumberjack" -isystem "${PODS_ROOT}/Headers/Public/WaterFall" -isystem "${PODS_ROOT}/Headers/Public/XTHttpRequestUtils" -isystem "${PODS_ROOT}/Headers/Public/XTLocationUtils" -isystem "${PODS_ROOT}/Headers/Public/skpsmtpmessage"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"AFNetworking" -l"CocoaLumberjack" -l"WaterFall" -l"XTHttpRequestUtils" -l"XTLocationUtils" -l"skpsmtpmessage" -framework "CFNetwork" -framework "CoreGraphics" -framework "MobileCoreServices" -framework "Security" -framework "SystemConfiguration"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
