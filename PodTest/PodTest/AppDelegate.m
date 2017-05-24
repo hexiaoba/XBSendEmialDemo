@@ -54,12 +54,12 @@
 - (void)sendLogToEmial {
     _mail = [[SKPSMTPMessage alloc] init];
     [_mail setSubject:@"Log"];  // 设置邮件主题
-    [_mail setFromEmail:@"hkn35135@163.com"]; // 目标邮箱
-    [_mail setToEmail:@"shxiangtaixxjs@163.com"]; // 发送者邮箱
+    [_mail setFromEmail:@"hkn35135@163.com"]; //发送者邮箱
+    [_mail setToEmail:@"shxiangtaixxjs@163.com"]; //目标邮箱
     [_mail setRelayHost:@"smtp.163.com"]; // 发送邮件代理服务器
     [_mail setRequiresAuth:YES];
     [_mail setLogin:@"hkn35135@163.com"]; // 发送者邮箱账号
-    [_mail setPass:@"947139054"]; // 发送者邮箱密码
+    [_mail setPass:@""]; // 发送者邮箱密码
     [_mail setWantsSecure:YES];  // 需要加密
     [_mail setDelegate:self];
 
